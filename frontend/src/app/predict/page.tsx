@@ -140,7 +140,7 @@ export default function PredictPage() {
               <div>
                 <label className="block text-sm font-medium text-shadow-grey dark:text-blue-slate mb-2">
                   Días a Predecir
-                </label>
+                </label>      
                 <select
                   value={days}
                   onChange={(e) => setDays(parseInt(e.target.value))}
